@@ -1714,7 +1714,7 @@
 	};
 	Thread.prototype.query = function( string ) {
 		this.points = [];
-		this.debugger_points = [];
+		this.debugger_states = [];
 		return parseQuery( this, string );
 	};
 	
